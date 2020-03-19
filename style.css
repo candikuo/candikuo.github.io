@@ -193,15 +193,26 @@ HOME PAGE PART 2 INTRODUCTION
   
   height: auto;
   width: 100%;
-  margin: 0px 20px;
+  margin: 0px 30px 0px 50px;
   padding: 40px 0px 16px 16px;
+}
+
+.introduction h2:after {
+  
+  display: block;
+  height: 2px;
+  background-color: #CEA0E4;
+  content: " ";
+  width: 150px;
+  margin:  15px 5px 15px 10px;
+  
 }
 
 .introduction p {
   height: 100%;
   width: auto;
-  margin: 45px 20px;
-  padding: 45px 20px 16px;
+  margin: 0px 15px 0 ;
+  padding: 45px 50px 16px;
   line-height: 1.5;
   
 }
@@ -213,10 +224,6 @@ HOME PAGE PART 2 INTRODUCTION
   width: auto;
 }
 
-.introduction .col .span-1-of-2 {
-  height: 100%;
-  color: #fff;
-}
 
 /*PHOTOS OF FOOD*/
 
@@ -261,16 +268,5 @@ section .meals {
   transform: scale(1.03)
 }
 
-#hover-text .hover-img-text {
-  font-family: 'Lato', 'Arial', sans-serif;
-  font-weight: 400;
-  position: relative;
-  bottom: 50%;
-  top: 50%;
-  visibility: hidden;
-}
 
-#wrapper:hover .hover-img-text {
-  visibility: visible;
-}
 }
