@@ -2,8 +2,8 @@
 INITIAL SETUP FOR THE BODY 
 -------------------------------------------------*/
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -19,12 +19,21 @@ body {
   overflow-x: hidden;
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 /* HEADINGS */
 
 h1,
 h2,
 h3{
-  font-family: 'Lato', 'Arial', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
 
   text-transform: uppercase;
@@ -42,14 +51,28 @@ h1 {
   text-align: center;
 }
 
+
 /*------------------------------------------------
 REUSABLE COMPONENTS
 -------------------------------------------------*/
 
 .row {
   max-width: 100%;
-  padding: 30px;
-  margin: 0, auto;
+  margin: 0;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  padding: 1%;
+}
+
+p {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
 }
 
 /*------------------------------------------------
@@ -65,6 +88,7 @@ header {
   /*below means 100% of the view port*/
   height: 100vh;
   background-attachment: fixed;
+  margin: 0;
 }
 
 .header-body-text {
@@ -74,7 +98,7 @@ header {
   font-weight: 400;
   font-size: 140%;
 
-  color: #b2bec3;
+  color: #dfe6e9;
 }
 
 .header-body-text span {
@@ -99,8 +123,8 @@ header {
   content: "";
   position: absolute;
   height: 10px;
-  border-bottom: 1px solid white;
-  border-top: 1px solid white;
+  border-bottom: 1px solid #CEA0E4;
+  border-top: 1px solid #CEA0E4;
   top: 10px;
   width: 200px;
 }
@@ -126,6 +150,7 @@ header {
 /*Main Navigation Bar*/
 
 .main-nav {
+  padding: 30px;
   text-align: center;
   float: center;
   list-style: none;
@@ -136,7 +161,7 @@ header {
   color: #fff;
   margin-left: 40px;
   padding: 8px 20px 10px;
-  font-size: 90%;
+  font-size: 115%;
   text-transform: uppercase;
 }
 
@@ -153,6 +178,99 @@ header {
   border-bottom: 2px solid #CEA0E4;
 }
 
+/*------------------------------------------------
+HOME PAGE PART 2 INTRODUCTION
+-------------------------------------------------*/
+.introduction {
+  position: absolute;
+}
+
+.introduction h2 {
+  float: left;
+ 
+  font-size: 200%;
+  letter-spacing: px;
+  
+  height: auto;
+  width: 100%;
+  margin: 0px 20px;
+  padding: 40px 0px 16px 16px;
+}
+
+.introduction p {
+  height: 100%;
+  width: auto;
+  margin: 45px 20px;
+  padding: 45px 20px 16px;
+  line-height: 1.5;
+  
+}
+
+.introduction .row {
+  margin: 0;
+  padding: 0;
+  height: auto; 
+  width: auto;
+}
+
+.introduction .col .span-1-of-2 {
+  height: 100%;
+  color: #fff;
+}
+
+/*PHOTOS OF FOOD*/
+
+section .meals {
+  margin: 0;
+  padding: 0;
+}
+
+.meals-showcase {
+  display: block;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+}
+
+.meals-showcase li {
+  margin: 0;
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+
+.meal-photo { 
+  margin: 0px;
+  overflow: hidden;
+  height: auto;
+  background-color: #fff; 
+}
+
+.meal-photo img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0px;
+  
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
 
 
+.meal-photo img:hover {
+  opacity: 0.7;
+  transform: scale(1.03)
+}
+
+#hover-text .hover-img-text {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 400;
+  position: relative;
+  bottom: 50%;
+  top: 50%;
+  visibility: hidden;
+}
+
+#wrapper:hover .hover-img-text {
+  visibility: visible;
+}
 }
