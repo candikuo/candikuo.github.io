@@ -15,7 +15,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   /*CHANGE TO 16px BEFORE PUBLISHING*/
-  font-size: 1vw;
+  font-size: 20px;
 
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
@@ -42,17 +42,6 @@ h3{
   text-transform: uppercase;
 }
 
-h1 {
-  margin-top: 0;
-  margin-bottom: .5vw;
-  position: relative;
-  font-size: 350%;
-
-  color: #fff;
-  word-spacing: .25vw;
-  letter-spacing: .16vw;
-  text-align: center;
-}
 
 /*------------------------------------------------
 REUSABLE COMPONENTS
@@ -116,7 +105,7 @@ header {
   color: #fff;
   
   text-align: center;
-  padding-bottom: 1.5vw;
+  padding-bottom: .7em;
 }
 
 /*Used to create the lines that are on either side of the body text*/
@@ -125,36 +114,48 @@ header {
 .header-body-text span:after {
   content: "";
   position: absolute;
-  height: .7vw;
-  border-bottom: 1px solid #CEA0E4;
-  border-top: 1px solid #CEA0E4;
-  top: .5vw;
-  width: 15vw;
+  height: .5em;
+  border-bottom: 0.01em solid #CEA0E4;
+  border-top: 0.01em solid #CEA0E4;
+  top: 0.4em;
+  width: 9em;
 }
 
 .header-body-text span:before {
   right: 100%;
-  margin-right: 1vw;
+  margin-right: 0.5em;
 }
 
 .header-body-text span:after {
   left: 100%;
-  margin-left: 1vw;
+  margin-left: 0.5em;
 }
 
 .hero-text-box {
   position: absolute;
-  width: 100vw;
+  width: 100em;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.hero-text-box h1 {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+  position: relative;
+  font-size: 300%;
+
+  color: #fff;
+  word-spacing: 0.1em;
+  letter-spacing: 0.2em;
+  text-align: center;
 }
 
 /*Main Navigation Bar*/
 
 .main-nav {
   width: auto;
-  padding: 2vw;
+  padding: 01.2em;
   text-align: center;
   float: center;
   list-style: none;
@@ -163,8 +164,8 @@ header {
 .main-nav li {
   display: inline-block;
   color: #fff;
-  margin-left: 4vw;
-  padding: 1vw 1vw;
+  margin-left: 4em;
+  padding: .2em .2em;
   font-size: 115%;
   text-transform: uppercase;
 }
@@ -172,17 +173,17 @@ header {
 .main-nav li a:link,
 .main-nav li a:visited {
   text-decoration: none;
-  border-bottom: 0.2vw solid transparent;
+  border-bottom: 0.04em solid transparent;
   
 }
 
 .main-nav a:hover,
 .main-nav a:active {
-  padding-bottom: .5vw;
-  border-bottom: 0.05vw solid #CEA0E4;
+  padding-bottom: 0.4em;
+  border-bottom: 0.1em solid #CEA0E4;
   transition: 0.2s;
 }
-
+/*COME BACK TO THIS SOON*/
 .logo {
   height: 10vw;
   width: auto;
@@ -202,30 +203,29 @@ HOME PAGE PART 2 INTRODUCTION
   float: left;
  
   font-size: 200%;
-  letter-spacing: px;
   
   height: auto;
   width: 100%;
-  margin: 0 2vw 0 2.5vw;
-  padding: 2vw 0 1vw 1vw;
+  margin: .5em .75em 0;
+  padding: .9em;
 }
 
 .introduction h2:after {
   
   display: block;
-  height: .05vw;
+  height: .02em;
   background-color: #CEA0E4;
   content: " ";
-  width: 6vw;
-  margin: .7vw .2vw .7vw .5vw;
+  width: 10em;
+  margin: .3em .2em .02em .2em;
   
 }
 
 .introduction p {
   height: 100%;
   width: auto;
-  margin: 0 .8vw 0;
-  padding: 2.7vw;
+  margin: 0 .8em 0;
+  padding: 2.5em;
   line-height: 1.5;
   
 }
@@ -288,31 +288,33 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
 @media screen and (max-width: 1200px) {
   header {
     transform: scale(1);
+    height: 150em;
     width: auto;
   }
   
-  h1 {
-    font-size: 7vw;
+  .hero-text-box h1 {
+    font-size: 350%;
   }
-  
+992
   .header-body-text {
-    font-size: 4vw;
+    font-size: 225%;
   }
   
   .chinese-heading {
-    font-size: 6vw;
+    font-size: 325%;
   }
   
   .main-nav {
-    font-size: 3.5vw;
+    font-size: 200%;
   }
   
   .introduction h2 {
-    font-size: 5.5vw;
+    font-size: 350%;
+    margin-left: 1.2em
   }
   
   .introduction p {
-    font-size: 4vw;
+    font-size: 225%;
   }
 }
 
@@ -321,31 +323,34 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
 @media screen and (max-width: 992px) {
   header {
     transform: scale(1);
-    width: auto;
+    width: 100%;
+    height: 100em;
   }
   
-  h1 {
-    font-size: 6.5vw;
+  .hero-text-box h1 {
+    font-size: 3.3em;
   }
   
   .header-body-text {
-    font-size: 3.5vw;
+    font-size: 2em;
   }
   
   .chinese-heading {
-    font-size: 6vw;
+    font-size: 3em;
   }
   
   .main-nav {
-    font-size: 3vw;
+    font-size: 1.5em;
+    padding-left: 0;
   }
   
   .introduction h2 {
-    font-size: 5.5vw;
+    font-size: 3em;
+    padding-left: .7em;
   }
   
   .introduction p {
-    font-size: 3.5vw;
+    font-size: 2em;
   }
 }
 
@@ -354,32 +359,33 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
 @media screen and (max-width: 768px) {
   header {
     transform: scale(1);
-    height: 200vw;
-    width: auto;
+    height: 100em;
+    width: 100%;
   }
   
-  h1 {
-    font-size: 7vw;
+  .hero-text-box h1 {
+    font-size: 2.5em;
   }
   
   .header-body-text {
-    font-size: 4vw;
+    font-size: 1.5em;
   }
   
   .chinese-heading {
-    font-size: 6vw;
+    font-size: 2.45em;
   }
   
   .main-nav {
-    font-size: 3.5vw;
+    font-size: 1.5em;
   }
   
   .introduction h2 {
-    font-size: 6.5vw;
+    font-size: 2.7em;
   }
   
   .introduction p {
-    font-size: 4.5vw;
+    font-size: 2em;
+    padding: 1.619em
   }
 }
 
@@ -388,32 +394,35 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
 @media screen and (max-width: 600px) {
   header {
     transform: scale(1);
-    height: 200vw;
+    height: 80em;
     width: auto;
+    margin:0;
+    padding: 0;
   }
   
-  h1 {
-    font-size: 8vw;
+  .hero-text-box h1 {
+    font-size: 1.7em;
   }
   
   .header-body-text {
-    font-size: 5vw;
+    font-size: 1em;
   }
   
   .chinese-heading {
-    font-size: 7vw;
+    font-size: 1.5em;
   }
   
   .main-nav {
-    font-size: 4vw;
+    font-size: .9em;
   }
   
   .introduction h2 {
-    font-size: 7vw;
+    font-size: 1.7em;
   }
   
   .introduction p {
-    font-size: 5vw;
+    font-size: 1em;
+    padding: 2.37em
   }
 }
 
