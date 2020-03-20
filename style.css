@@ -327,7 +327,7 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
 /* Large devices (laptops/desktops, 992px and up) */
 @media screen and (max-width: 992px) {
   header {
-    width: 100%;
+    width: 100vw;
     height: 100em;
     background-size: cover;
     background-attachment: scroll;
@@ -365,7 +365,7 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
 @media screen and (max-width: 768px) {
   header {
     height: 100em;
-    width: 100%;
+    width: 100vw;
     background-size: cover;
     background-attachment: scroll;
   }
@@ -401,7 +401,7 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
 @media screen and (max-width: 600px) {
   header {
     height: 80em;
-    width: auto;
+    width: 100vw;
     margin:0;
     padding: 0;
     background-size: cover;
