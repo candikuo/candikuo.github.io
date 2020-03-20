@@ -387,27 +387,27 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
   }
   
   h1 {
-    font-size: 45px;
-  }
-  
-  .header-body-text {
-    font-size: 23px;
-  }
-  
-  .chinese-heading {
     font-size: 40px;
   }
   
-  .main-nav {
+  .header-body-text {
     font-size: 20px;
   }
   
-  .introduction h2 {
+  .chinese-heading {
     font-size: 35px;
   }
   
+  .main-nav {
+    font-size: 15px;
+  }
+  
+  .introduction h2 {
+    font-size: 30px;
+  }
+  
   .introduction p {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
