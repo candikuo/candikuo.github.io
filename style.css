@@ -14,7 +14,8 @@ body {
 
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  /*CHANGE TO 16px BEFORE PUBLISHING*/
+  font-size: 1.4vw;
 
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
@@ -88,6 +89,7 @@ header {
   background-position: center;
   /*below means 100% of the view port*/
   height: 100vh;
+  width: 100%;
   background-attachment: fixed;
   margin: 0;
 }
@@ -151,6 +153,7 @@ header {
 /*Main Navigation Bar*/
 
 .main-nav {
+  width: auto;
   padding: 30px;
   text-align: center;
   float: center;
@@ -180,21 +183,13 @@ header {
   transition: 0.2s;
 }
 
-.logo,
-.logo-black {
-  height: 100px;
+.logo {
+  height: 10vw;
   width: auto;
   float: left;
   margin-top: 20px;
 }
 
-.logo-black { 
-  display: none;
-  height: 50px;
-  width: auto;
-  float: left;
-  margin: 5px 0;
-}
 
 /*------------------------------------------------
 HOME PAGE PART 2 INTRODUCTION
