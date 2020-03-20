@@ -16,14 +16,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   background-color: #fff;
 }
 
-@media screen and (min-width: 601px) {
-  .introduction .span-1-of-2 {
-    width: 100%;
-  }
-}
+
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .introduction .span-1-of-2 {
     width: 100%;
   }
