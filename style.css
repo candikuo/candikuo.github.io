@@ -15,7 +15,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   /*CHANGE TO 16px BEFORE PUBLISHING*/
-  font-size: 1.4vw;
+  font-size: 2vw;
 
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
@@ -129,7 +129,7 @@ header {
   border-bottom: 1px solid #CEA0E4;
   border-top: 1px solid #CEA0E4;
   top: 10px;
-  width: 200px;
+  width: 15vw;
 }
 
 .header-body-text span:before {
@@ -163,7 +163,7 @@ header {
 .main-nav li {
   display: inline-block;
   color: #fff;
-  margin-left: 40px;
+  margin-left: 4vw;
   padding: 8px 20px 10px;
   font-size: 115%;
   text-transform: uppercase;
@@ -172,14 +172,14 @@ header {
 .main-nav li a:link,
 .main-nav li a:visited {
   text-decoration: none;
-  border-bottom: 2px solid transparent;
+  border-bottom: 0.2vw solid transparent;
   
 }
 
 .main-nav a:hover,
 .main-nav a:active {
   padding-bottom: 7px;
-  border-bottom: 2px solid #CEA0E4;
+  border-bottom: 0.05vw solid #CEA0E4;
   transition: 0.2s;
 }
 
@@ -213,7 +213,7 @@ HOME PAGE PART 2 INTRODUCTION
 .introduction h2:after {
   
   display: block;
-  height: 2px;
+  height: .05vw;
   background-color: #CEA0E4;
   content: " ";
   width: 150px;
@@ -224,7 +224,7 @@ HOME PAGE PART 2 INTRODUCTION
 .introduction p {
   height: 100%;
   width: auto;
-  margin: 0px 15px 0 ;
+  margin: 0px 15px 0;
   padding: 45px 50px 16px;
   line-height: 1.5;
   
@@ -260,7 +260,7 @@ section .meals {
 }
 
 .meal-photo { 
-  margin: 0px;
+  margin: 0;
   overflow: hidden;
   height: auto;
   background-color: #fff; 
