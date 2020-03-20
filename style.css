@@ -1,13 +1,6 @@
 /*------------------------------------------------
 INITIAL SETUP FOR THE BODY 
 -------------------------------------------------*/
-$ git diff resources/css/main.css 
-diff --git a/resources/css/main.css b/resources/css/main.css
-index 8da24f1..96bd795 100644
---- a/resources/css/main.css
-+++ b/resources/css/main.css
-@@ -5,42 +5,42 @@ html {
- }
 
 * {
   margin: 0;
@@ -42,7 +35,7 @@ h1,
 h2,
 h3{
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  font-weight:300;
 
   text-transform: uppercase;
 }
@@ -103,7 +96,7 @@ header {
   text-align: center;
 
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 140%;
 
   color: #dfe6e9;
