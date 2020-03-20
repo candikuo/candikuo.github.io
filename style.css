@@ -288,30 +288,31 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
 @media screen and (max-width: 1200px) {
   header {
     transform: scale(1);
+    width: auto;
   }
   
   h1 {
-    font-size: 70px;
+    font-size: 7vw;
   }
   
   .header-body-text {
-    font-size: 40px;
+    font-size: 4vw;
   }
   
   .chinese-heading {
-    font-size: 60px;
+    font-size: 6vw;
   }
   
   .main-nav {
-    font-size: 35px;
+    font-size: 3.5vw;
   }
   
   .introduction h2 {
-    font-size: 55px;
+    font-size: 5.5vw;
   }
   
   .introduction p {
-    font-size: 35px;
+    font-size: 4vw;
   }
 }
 
@@ -320,30 +321,31 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
 @media screen and (max-width: 992px) {
   header {
     transform: scale(1);
+    width: auto;
   }
   
   h1 {
-    font-size: 60px;
+    font-size: 6.5vw;
   }
   
   .header-body-text {
-    font-size: 30px;
+    font-size: 3.5vw;
   }
   
   .chinese-heading {
-    font-size: 55px;
+    font-size: 6vw;
   }
   
   .main-nav {
-    font-size: 25px;
+    font-size: 3vw;
   }
   
   .introduction h2 {
-    font-size: 55px;
+    font-size: 5.5vw;
   }
   
   .introduction p {
-    font-size: 35px;
+    font-size: 3.5vw;
   }
 }
 
@@ -352,30 +354,32 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
 @media screen and (max-width: 768px) {
   header {
     transform: scale(1);
+    height: 200vw;
+    width: auto;
   }
   
   h1 {
-    font-size: 55px;
+    font-size: 7vw;
   }
   
   .header-body-text {
-    font-size: 25px;
+    font-size: 4vw;
   }
   
   .chinese-heading {
-    font-size: 50px;
+    font-size: 6vw;
   }
   
   .main-nav {
-    font-size: 25px;
+    font-size: 3.5vw;
   }
   
   .introduction h2 {
-    font-size: 50px;
+    font-size: 6.5vw;
   }
   
   .introduction p {
-    font-size: 25px;
+    font-size: 4.5vw;
   }
 }
 
@@ -384,30 +388,32 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
 @media screen and (max-width: 600px) {
   header {
     transform: scale(1);
+    height: 200vw;
+    width: auto;
   }
   
   h1 {
-    font-size: 40px;
+    font-size: 8vw;
   }
   
   .header-body-text {
-    font-size: 20px;
+    font-size: 5vw;
   }
   
   .chinese-heading {
-    font-size: 35px;
+    font-size: 7vw;
   }
   
   .main-nav {
-    font-size: 15px;
+    font-size: 4vw;
   }
   
   .introduction h2 {
-    font-size: 30px;
+    font-size: 7vw;
   }
   
   .introduction p {
-    font-size: 20px;
+    font-size: 5vw;
   }
 }
 
