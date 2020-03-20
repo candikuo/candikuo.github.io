@@ -282,33 +282,33 @@ section .meals {
 }
 
 /* If the screen size is 2000px wide or less*/
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
   header {
     transform: scale(1);
   }
   
   h1 {
-    font-size: 65px;
+    font-size: 60px;
   }
   
   .header-body-text {
-    font-size: 35px;
+    font-size: 30px;
   }
   
   .chinese-heading {
-    font-size: 60px;
+    font-size: 55px;
   }
   
   .main-nav {
-    font-size: 35px
+    font-size: 25px
   }
   
   .introduction h2 {
-    font-size: 60px;
+    font-size: 55px;
   }
   
   .introduction p {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 
