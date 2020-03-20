@@ -19,7 +19,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   .introduction .span-1-of-2 {
     width: 100%;
   }

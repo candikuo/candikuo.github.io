@@ -281,7 +281,42 @@ section .meals {
   transform: scale(1.03)
 }
 
-/* If the screen size is 2000px wide or less*/
+/*------------------------------------------------
+MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
+-------------------------------------------------*/
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (max-width: 1200px) {
+  header {
+    transform: scale(1);
+  }
+  
+  h1 {
+    font-size: 70px;
+  }
+  
+  .header-body-text {
+    font-size: 40px;
+  }
+  
+  .chinese-heading {
+    font-size: 60px;
+  }
+  
+  .main-nav {
+    font-size: 35px;
+  }
+  
+  .introduction h2 {
+    font-size: 55px;
+  }
+  
+  .introduction p {
+    font-size: 35px;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
 @media screen and (max-width: 992px) {
   header {
     transform: scale(1);
@@ -300,7 +335,7 @@ section .meals {
   }
   
   .main-nav {
-    font-size: 25px
+    font-size: 25px;
   }
   
   .introduction h2 {
@@ -313,14 +348,14 @@ section .meals {
 }
 
 
-/* If the screen size is 600px wide or less */
-@media screen and (max-width: 600px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 768px) {
   header {
     transform: scale(1);
   }
   
   h1 {
-    font-size: 50px;
+    font-size: 55px;
   }
   
   .header-body-text {
@@ -328,19 +363,51 @@ section .meals {
   }
   
   .chinese-heading {
-    font-size: 35px;
+    font-size: 50px;
   }
   
   .main-nav {
-    font-size: 20px
+    font-size: 25px;
   }
   
   .introduction h2 {
-    font-size: 30px;
+    font-size: 50px;
   }
   
   .introduction p {
+    font-size: 25px;
+  }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  header {
+    transform: scale(1);
+  }
+  
+  h1 {
+    font-size: 45px;
+  }
+  
+  .header-body-text {
+    font-size: 23px;
+  }
+  
+  .chinese-heading {
+    font-size: 40px;
+  }
+  
+  .main-nav {
     font-size: 20px;
+  }
+  
+  .introduction h2 {
+    font-size: 35px;
+  }
+  
+  .introduction p {
+    font-size: 25px;
   }
 }
 
