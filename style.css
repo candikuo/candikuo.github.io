@@ -82,7 +82,7 @@ HEADER
 -------------------------------------------------*/
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(resources/img/Taiwanese_menu_meal.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(resources/img/Taiwanese_menu_meal.jpg);
   /*to show the whole image*/
   background-size: cover;
   /*center the background image*/
