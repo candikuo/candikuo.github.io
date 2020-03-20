@@ -400,7 +400,7 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
   header {
-    height: 80em;
+    height: 40em;
     width: 100vw;
     margin:0;
     padding: 0;
