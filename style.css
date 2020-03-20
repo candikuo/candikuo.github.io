@@ -281,64 +281,66 @@ section .meals {
   transform: scale(1.03)
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/* If the screen size is 2000px wide or less*/
 @media screen and (max-width: 1000px) {
+  header {
+    transform: scale(1);
+  }
+  
   h1 {
-    font-size: 40px;
+    font-size: 60px;
   }
   
-  h2 {
-    font-size: 20px;
-  }
   .header-body-text {
-    font-size: 20px;
-  }
-  
-  .chinese-heading {
     font-size: 30px;
   }
   
+  .chinese-heading {
+    font-size: 50px;
+  }
+  
   .main-nav {
-    font-size: 17px
+    font-size: 25px
   }
   
   .introduction h2 {
-    font-size: 25px;
+    font-size: 40px;
   }
   
   .introduction p {
-    font-size: 17px;
+    font-size: 25px;
   }
 }
 
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 400px) {
-  h1 {
-    font-size: 30px;
+/* If the screen size is 600px wide or less */
+@media screen and (max-width: 700px) {
+  header {
+    transform: scale(1);
   }
   
-  h2 {
-    font-size: 10px;
+  h1 {
+    font-size: 50px;
   }
+  
   .header-body-text {
-    font-size: 15px;
+    font-size: 25px;
   }
   
   .chinese-heading {
-    font-size: 20px;
+    font-size: 35px;
   }
   
   .main-nav {
-    font-size: 12px
+    font-size: 20px
   }
   
   .introduction h2 {
-    font-size: 15px;
+    font-size: 30px;
   }
   
   .introduction p {
-    font-size: 10px;
+    font-size: 20px;
   }
 }
 
