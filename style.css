@@ -89,7 +89,7 @@ header {
   background-position: center;
   /*below means 100% of the view port*/
   height: 100vh;
-  width: 100vw;
+  width: auto;
   background-attachment: fixed;
   margin: 0;
 }
