@@ -96,10 +96,6 @@ header {
   color: #dfe6e9;
 }
 
-.header-body-text span {
-  position: relative;  
-}
-
 .chinese-heading {
   font-family: 'Noto Sans TC', sans-serif;
   font-weight: 200;
