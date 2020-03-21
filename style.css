@@ -292,7 +292,7 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
 @media screen and (max-width: 1200px) {
   header {
     height: 150em;
-    width: auto;
+    width: 100vw;
     background-size: cover;
     background-attachment: scroll;
   }
@@ -300,7 +300,7 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
   .hero-text-box h1 {
     font-size: 350%;
   }
-992
+
   .header-body-text {
     font-size: 225%;
   }
