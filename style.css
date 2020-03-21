@@ -113,6 +113,7 @@ header {
 
 /*Used to create the lines that are on either side of the body text*/
 
+/*
 .header-body-text span:before,
 .header-body-text span:after {
   content: "";
@@ -123,7 +124,7 @@ header {
   top: 0.4em;
   width: 9em;
 }
-/*
+
 .header-body-text span:before {
   right: 100%;
   margin-right: 0.5em;
