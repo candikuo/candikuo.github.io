@@ -304,17 +304,7 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
   .header-body-text {
     font-size: 2em;
   }
-  
-  .header-body-text span:before {
-    right: 0%;
-    width: 0;
-  }
-  
-  .header-body-text span:after {
-    left: 0%;
-    width: 0;
-  }
-  
+
   .chinese-heading {
     font-size: 2.9em;
   }
@@ -357,14 +347,6 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
     font-size: 3em;
   }
   
-  .header-body-text span:before {
-    right: 0%;
-  }
-  
-  .header-body-text span:after {
-    left: 0%;
-  }
-  
   .main-nav {
     font-size: 1.5em;
     padding-left: 0;
@@ -402,14 +384,6 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
     font-size: 2.45em;
   }
   
-  .header-body-text span:before {
-    right: 0%;
-  }
-  
-  .header-body-text span:after {
-    left: 0%;
-  }
-  
   .main-nav {
     font-size: 1.5em;
   }
@@ -443,15 +417,7 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
   .header-body-text {
     font-size: 1em;
   }
-  
-  .header-body-text span:before {
-    right: 0%;
-  }
-  
-  .header-body-text span:after {
-    left: 0%;
-  }
-  
+
   .chinese-heading {
     font-size: 1.5em;
   }
