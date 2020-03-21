@@ -123,7 +123,7 @@ header {
   top: 0.4em;
   width: 9em;
 }
-
+/*
 .header-body-text span:before {
   right: 100%;
   margin-right: 0.5em;
@@ -133,6 +133,7 @@ header {
   left: 100%;
   margin-left: 0.5em;
 }
+*/
 
 .hero-text-box {
   position: absolute;
@@ -305,10 +306,12 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
   
   .header-body-text span:before {
     right: 0%;
+    width: 0;
   }
   
   .header-body-text span:after {
     left: 0%;
+    width: 0;
   }
   
   .chinese-heading {
