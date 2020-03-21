@@ -298,28 +298,30 @@ MOBILE FRIENDLY @MEDIA SCREEN ADJUSTMENTS
   }
   
   .hero-text-box h1 {
-    font-size: 350%;
+    font-size: 3.2em;
   }
 
   .header-body-text {
-    font-size: 225%;
+    font-size: 2em;
   }
   
   .chinese-heading {
-    font-size: 325%;
+    font-size: 2.9em;
   }
   
   .main-nav {
-    font-size: 200%;
+    font-size: 1.7em;
+    padding-left: 0;
+    margin: 0;
   }
   
   .introduction h2 {
-    font-size: 350%;
+    font-size: 3.35em;
     margin-left: 1.2em
   }
   
   .introduction p {
-    font-size: 225%;
+    font-size: 2.2em;
   }
 }
 
